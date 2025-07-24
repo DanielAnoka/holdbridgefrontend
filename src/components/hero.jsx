@@ -17,10 +17,14 @@ const LandingPage = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           {/* <Button variant="primary">Get started</Button>
           <Button variant="secondary">How it works</Button> */}
-           <Link to="/waitlist">
-            <Button variant="primary" className="mt-4 inline-flex items-center gap-2 h-14 w-40 ">
+          <Link to="/waitlist">
+            <Button
+              variant="primary"
+              className="mt-4 inline-flex items-center justify-center gap-2 text-sm md:text-base h-10 w-40 md:h-12 md:w-48"
+            >
               Join waitlist <ArrowRight size={16} />
             </Button>
+
           </Link>
         </div>
 
