@@ -5,7 +5,11 @@ import LandingPage from '../app/landing-page';
 import Waitlist from '../app/waitlist/main';
 import Signup from "../app/auth/sign-up"
 import Signin from "../app/auth/sign-in";
-import ComingSoon from "../app/404";
+
+// Main system
+import Main from "../layouts/main"
+import Dashboard from "../app/main/Dashboard/index"
+
 
 const Router = () => {
     return (
@@ -16,6 +20,10 @@ const Router = () => {
             </Route>
             <Route path="/register" element={<Signup />} />
             <Route path="/login" element={<Signin />} />
+
+            <Route path="/dashboard" element={<Main />}>
+                <Route index element={<Dashboard />} />
+            </Route>
         </Routes>
     )
 }

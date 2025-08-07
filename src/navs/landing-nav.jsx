@@ -7,7 +7,7 @@ const navItems = [
   { label: "How It Works", href: "#how-it-works" },
   { label: "Features", href: "#features" },
   { label: "Testimonials", href: "#testimonials" },
-  { label: "Pricing", href: "#pricing" },
+  // { label: "Pricing", href: "#pricing" },
 ];
 
 const LandingNav = () => {

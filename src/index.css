@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #01040c;
+  background-color: #0C0C1E;
   scroll-behavior: smooth;
 }
 .no-scrollbar::-webkit-scrollbar {
