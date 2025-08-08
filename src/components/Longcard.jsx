@@ -1,13 +1,13 @@
 import { ArrowRight } from 'lucide-react';
-import React from 'react';
+
 
 const Longcard = ({ title, icon: Icon, border = '', children, actionButton, onAction, }) => {
   return (
     <div className={`bg-[#0C0C1E] p-4 rounded-lg w-full ${border}`}>
       <div className="flex items-center justify-between mb-4" >
       <div className="flex items-center gap-2">
-        {Icon && <Icon className="w-8 h-8 text-white" />}
-        <h2 className="font-medium text-[23px] leading-[36.4px] tracking-normal">
+        {Icon && <Icon className="w-6 h-6 text-white md:w-8 md:h-8" />}
+        <h2 className="font-medium text-[18px] md:text-[23px] leading-[36.4px] tracking-normal">
           {title}
         </h2>
       </div>

@@ -6,7 +6,7 @@ import InstallAppButton from '../components/InstallAppButton'; // adjust path if
 const Main = () => {
   return (
     <div>
-      <div className='sticky top-0 z-50 w-full flex items-center justify-between px-4 py-2 bg-[#0C0C1E]'>
+      <div className='sticky top-0 z-50 w-full flex items-center justify-between  bg-[#0C0C1E]'>
         <MainNav />
         <InstallAppButton />
       </div>
